@@ -1,6 +1,6 @@
 ---
 thumbnail: "/uploads/schoolbus1.jpg"
-title: The School Bus Project
+title: chelsea-landmark
 date: 2019-01-03
 categories:
 - photography
