@@ -3,8 +3,8 @@
     <div class="container">
 
       <div class="contact-header">
-        <h1 class="contact-title">Say hi!</h1>
-        <p>Leave me a note with any questions you might have, I'll get back to you as soon as possible.</p>
+        <h1 class="contact-title">Say hello!</h1>
+        <p>Leave me a note with any questions you might have. I'd love to discuss designs with you as well.</p>
       </div>
 
       <form class="contact-form" name="contact">
@@ -25,7 +25,7 @@
           <textarea name="message"></textarea>
         </div>
 
-        <button class="button">Submit form</button>
+        <button class="button">Shoot mail</button>
 
       </form>
 
@@ -39,7 +39,7 @@ export default {}
 
 <style scoped>
 .contact-header {
-  padding: 2rem 0 4rem 0;
+  padding: 4rem 0 4rem 0;
 }
 .contact-title {
   font-size: 4rem;

@@ -1,12 +1,12 @@
 ---
 thumbnail: "/uploads/Schoolbus1.jpg"
-title: Ice Cream
-date: 2019-01-04
+title: The School Bus
+date: 2020-01-04
 categories:
 - photography
-- yellow
+- deep-six
 project_bg_color: ''
-project_fg_color: "#FDC70D"
+project_fg_color: ''
 
 ---
 ![](/uploads/Schoolbus1.jpg)

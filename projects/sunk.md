@@ -1,12 +1,12 @@
 ---
-thumbnail: "/uploads/cody-davis-253925-unsplash.jpg"
-title: Pineapple
-date: 2019-02-06
+thumbnail: "/uploads/bootcamp.jpg"
+title: Innovation Bootcamp
+date: 2019-11-24
 categories:
-- photography
-- blue
-project_bg_color: "#EDEDED"
-project_fg_color: "#36B5EF"
+- InnovationContinues
+- Paschimanchal
+project_bg_color: ''
+project_fg_color: ''
 
 ---
-![](/uploads/cody-davis-253925-unsplash.jpg)
+![](/uploads/bootcamp.jpg)
