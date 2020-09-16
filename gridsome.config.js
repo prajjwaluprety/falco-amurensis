@@ -22,7 +22,7 @@ module.exports = {
         {
             use: "@gridsome/source-filesystem",
             options: {
-                path: "journal/**/*.md",
+                path: "Journal/**/*.md",
                 typeName: "JournalPost",
                 resolveAbsolutePaths: true,
                 remark: {
