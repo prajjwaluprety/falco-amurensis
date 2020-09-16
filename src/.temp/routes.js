@@ -6,7 +6,7 @@ const c5 = () => import(/* webpackChunkName: "page--src--pages--index-vue" */ "/
 
 export default [
   {
-    path: "/journal/use-gridsome-vuejs/",
+    path: "/journal/vuejs/",
     component: c1
   },
   {
@@ -30,7 +30,7 @@ export default [
     component: c2
   },
   {
-    path: "/journal/a-journal-entry/",
+    path: "/journal/goldenratio/",
     component: c1
   },
   {

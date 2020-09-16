@@ -1,7 +1,7 @@
 ---
 date: 2020-09-16
 title: Aalu Pidalu
-author: Prajjwal Upreyu
+author: Prajjwal Uprety
 excerpt: आलु पिंडालु Font face, vertical rythm, readability, this long fake text should flow.
 
 ---
