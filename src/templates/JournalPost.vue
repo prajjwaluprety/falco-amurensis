@@ -30,6 +30,7 @@ query JournalPost ($path: String!) {
     title
     author
     date (format: "D. MMMM YYYY")
+    timeToRead
     content
   }
 }
