@@ -53,4 +53,12 @@ export default {
     opacity: 0.6;
     cursor: pointer;  
 }
+@media (max-aspect-ratio: 3/4) {
+    .hero-title {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 0;
+    margin: 0 0 2rem 0;
+    }
+}
 </style>

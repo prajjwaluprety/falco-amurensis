@@ -37,7 +37,7 @@ export default {
     z-index: 10;
 }
 .header.sticky {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -66,7 +66,7 @@ export default {
     font-weight: 600;
     text-decoration: none;
     margin-top: 4px;
-    margin-right: 3rem;
+    margin-right: 2rem;
     padding-bottom: 4px;
     border-bottom: 1px solid;
     border-color: transparent;

@@ -4,7 +4,7 @@
     <div class="container">
       <div class="journal-hero">
         <h1 class="journal-header">
-          potato tomato potato
+          आलु जस्तो
         </h1>
       </div>
     </div>

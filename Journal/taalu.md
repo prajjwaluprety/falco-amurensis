@@ -1,12 +1,12 @@
 ---
-date: 2019-05-17
-title: About Typography
-author: W. Andersen Nichlas
-excerpt: Font face, vertical rythm, readability, this long fake text should flow.
+date: 2020-09-15
+title: Taalu
+author: Prajjwal Uprety
+excerpt: तालु Font face, vertical rythm, readability, this long fake text should flow.
 
 ---
 
-![](/uploads/schoolbus3.png)
+![](/uploads/bootcamp2.jpg)
 
 Still it was a handgun and nine rounds of ammunition, and as he made his way down Shiga from the Chinese program’s thrust, a worrying impression of solid fluidity, as though the shards of a [slick headless CMS](https://forestry.io) bent and elongated as they rotated, but it never told the correct time.
 
@@ -23,6 +23,4 @@ Still it was a square of faint light. Why bother with the movement of the train,
 
 #### Images formed and reformed
 
-<br>![](/uploads/schoolbus.png)
-
-<br>A flickering montage of the Sprawl’s towers and ragged Fuller domes, dim figures moving toward him in the tunnel’s ceiling.
+A flickering montage of the Sprawl’s towers and ragged Fuller domes, dim figures moving toward him in the tunnel’s ceiling.

@@ -3,9 +3,9 @@
 
 module.exports = {
     siteName: "Prajjwal's Wall",
-    siteUrl: `https://www.itsnwa.com`,
+    siteUrl: `https://prajjowl.com.np`,
     host: "0.0.0.0",
-    titleTemplate: "%s - NWA",
+    titleTemplate: "%s - Prajjwal",
     siteDescription: "Design, and Redesign.",
     plugins: [{
             use: "@gridsome/source-filesystem",

@@ -14,10 +14,6 @@
               <span class="label">Date</span>
               <div v-text="$page.post.date"/>
             </div>
-            <div class="journal-time">
-              <span class="label">Time</span>
-              <span>{{ $page.post.timeToRead }} min read</span>
-            </div>
           </div>          
         </div>
 
@@ -33,8 +29,7 @@ query JournalPost ($path: String!) {
   post: journalPost (path: $path) {
     title
     author
-    date (format: "D. MMMM YYYY")
-    timeToRead
+    date (format: "DD MMMM YYYY")
     content
   }
 }
