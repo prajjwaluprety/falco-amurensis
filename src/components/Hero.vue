@@ -2,6 +2,7 @@
     <div class="hero">
         <h1 class="hero-title" v-html="settings.hero_title" />
         <h2 class="hero-subtitle" v-html="settings.hero_subtitle" />
+        <a class="hero-link" href="mailto:hello@prajjowl.com.np"> hello@prajjowl.com.np </a>
     </div>
 </template>
 
@@ -21,7 +22,7 @@ export default {
     width: 480px;
     max-width: 100%;
     margin: 0 auto;
-    padding: 4rem 0 8rem 0;
+    padding: 4rem 0 6rem 0;
 }
 
 .hero-title {
@@ -42,5 +43,14 @@ export default {
     padding: 0;
     margin: 0;
     opacity: 0.6;
+}
+.hero-link {
+    font-size: 1.15em;
+    font-weight: 400;
+    line-height: 1.68;
+    padding: 0;
+    margin: 0;
+    opacity: 0.6;
+    cursor: pointer;  
 }
 </style>
