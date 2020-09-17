@@ -1,5 +1,15 @@
 // This is where project configuration and installed plugin options are located.
 // Learn more: https://gridsome.org/docs/config
+import VideoBg from 'vue-videobg'
+
+Vue.component('video-bg', VideoBg)
+
+// or
+new Vue({
+    el: 'body',
+    components: { VideoBg }
+})
+
 
 module.exports = {
     siteName: "Prajjwal's Wall",

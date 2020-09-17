@@ -30,7 +30,8 @@ query Posts {
         title
       }
     }
-  }
+  },
+  
 }
 </page-query>
 
