@@ -5,16 +5,16 @@
       <div class="container">
 
         <div class="project-header">
-          <h1 class="project-title" v-html="$page.post.title" />
+          <h1 class="project-title">Potato</h1>
           <div class="project-info">
             <div class="year-container">
               <span class="label">Year</span>
-              <div v-html="$page.post.date"/>
+              <div v-html="$page.kosheros.date"/>
             </div>
           </div>
         </div>
 
-        <div v-html="$page.post.content" class="content" />
+        <div v-html="$page.kosheros.content" class="content" />
 
       </div>
 
@@ -23,14 +23,23 @@
 </template>
 
 
+<page-query>
+query KosheroItems ($path: String!){
+	kosheros : kosheroPost (path: $path){
+    title
+    date
+    content
+  }
+}
+</page-query>
 
 <script>
 export default {
   metaInfo () {
     return {
-      title: this.$page.post.title,
+      title: this.$page.kosheros.title,
       bodyAttrs: {
-        style: `background-color: ${this.$page.post.project_bg_color ? this.$page.post.project_bg_color : 'var(--color-base)'}; color: ${this.$page.post.project_fg_color ? this.$page.post.project_fg_color : 'var(--color-contrast)'}`
+        style: `background-color: ${this.$page.kosheros.project_bg_color ? this.$page.kosheros.project_bg_color : 'var(--color-base)'}; color: ${this.$page.post.project_fg_color ? this.$page.post.project_fg_color : 'var(--color-contrast)'}`
       }
     }
   }

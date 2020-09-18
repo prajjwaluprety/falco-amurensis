@@ -1,12 +1,11 @@
 <template>
   <Layout>
     <div class="container">
-
       <div class="bkoshero-header">
         <h1 class="bkoshero-title">Batho Koshero</h1>
         <p>a story-telling-design-owl.</p>
-        <video class="intro-video" autoplay="autoplay" muted="" playsinline loop="" preload="auto">
-          <source src="/bathokoshero1.mp4">
+        <video class="intro-video" autoplay="autoplay" muted playsinline loop preload="auto">
+          <source src="/bathokoshero1.mp4" />
         </video>
       </div>
 
@@ -14,14 +13,46 @@
         <h1 class="body-title">The joy in evolution and innovation.</h1>
         <p>Weihenmayer has spent his life pushing at limits and expectations. He’s climbed the highest mountain on every continent (including Mount Kosciuszko on the “eighth continent” of Oceania), kayaked the length of the Colorado river, scaled the notorious “Nose” route of El Capitan in Yosemite and completed some of the world’s most gruelling races. His accomplishments would be jaw-dropping even if he could see. But Weihenmayer is completely blind.</p>
       </div>
+
+      <g-link 
+      :to="item.node.path"
+      v-for="item in $page.kosheros.edges" 
+      :key="item.node.id"
+      class="journal-post"
+    >
+      <div class="container journal">
+        <h2 class="journal-title">{{ item.node.title }}</h2>
+        <p class="journal-excerpt">{{ item.node.excerpt }}</p>
+      </div>
+    </g-link>
+
       
+
     </div>
   </Layout>
 </template>
 
+<page-query>
+query KosheroItems {
+	kosheros : allKosheroPost {
+    edges {
+      node {
+        id
+        path
+        title
+        date
+        excerpt
+      }
+    }
+  }
+}
+</page-query>
 
 <script>
-export default {}
+console.log('aalu')
+export default {
+  
+};
 </script>
 
 <style scoped>
@@ -68,11 +99,11 @@ export default {}
   color: var(--color-contrast-1);
 }
 p {
-    line-height: 1.5;
-    font-size: 1.15rem;
+  line-height: 1.5;
+  font-size: 1.15rem;
 }
 h2 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 </style>
 
