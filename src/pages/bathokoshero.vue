@@ -1,4 +1,3 @@
-
 <template>
   <Layout>
     <div class="container">
@@ -7,7 +6,7 @@
         <h1 class="bkoshero-title">Batho Koshero</h1>
         <p>a story-telling-design-owl.</p>
         <video class="intro-video" autoplay="autoplay" muted="" playsinline loop="" preload="auto">
-          <source src="uploads/bathokoshero1.mp4">
+          <source src="/uploads/bathokoshero1.mp4">
         </video>
       </div>
 
@@ -15,37 +14,11 @@
         <h1 class="body-title">The joy in evolution and innovation.</h1>
         <p>Weihenmayer has spent his life pushing at limits and expectations. He’s climbed the highest mountain on every continent (including Mount Kosciuszko on the “eighth continent” of Oceania), kayaked the length of the Colorado river, scaled the notorious “Nose” route of El Capitan in Yosemite and completed some of the world’s most gruelling races. His accomplishments would be jaw-dropping even if he could see. But Weihenmayer is completely blind.</p>
       </div>
-
-    <g-link 
-      :to="item.node.path"
-      v-for="item in $page.posts.edges" 
-      :key="item.node.id"
-      class="koshero-post"
-    >
-      <div class="container journal">
-        <h2 class="koshero-title">{{ item.node.title }}</h2>
-        <p class="koshero-excerpt">{{ item.node.excerpt }}</p>
-      </div>
-    </g-link>
-
+      
     </div>
   </Layout>
 </template>
 
-<page-query>
-query KosheroItems {
-	posts: allJournalPost {
-    edges {
-      node {
-        id
-        path
-        title
-        excerpt
-      }
-    }
-  }
-}
-</page-query>
 
 <script>
 export default {}
@@ -61,7 +34,7 @@ export default {}
   padding: 0;
 }
 .intro-video {
-  padding: 2em 0;
+  padding: 3em 0 0;
   width: 100%;
 }
 .body-title {

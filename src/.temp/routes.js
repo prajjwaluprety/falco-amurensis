@@ -35,6 +35,10 @@ export default [
     component: c1
   },
   {
+    path: "/journal/bass/",
+    component: c1
+  },
+  {
     path: "/journal/aalu/",
     component: c1
   },
