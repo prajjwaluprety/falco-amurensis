@@ -35,14 +35,7 @@ query KosheroItems ($path: String!){
 
 <script>
 export default {
-  metaInfo () {
-    return {
-      title: this.$page.kosheros.title,
-      bodyAttrs: {
-        style: `background-color: ${this.$page.kosheros.project_bg_color ? this.$page.kosheros.project_bg_color : 'var(--color-base)'}; color: ${this.$page.post.project_fg_color ? this.$page.post.project_fg_color : 'var(--color-contrast)'}`
-      }
-    }
-  }
+  
 }
 </script>
 
