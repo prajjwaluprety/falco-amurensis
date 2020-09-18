@@ -22,18 +22,7 @@
   </Layout>
 </template>
 
-<page-query>
-query KosheroPost ($path: String!) {
-  post: kosheroPost (path: $path) {
-    title
-    date (format: "YYYY")
-    content
-    categories
-    project_bg_color
-    project_fg_color
-  }
-}
-</page-query>
+
 
 <script>
 export default {
