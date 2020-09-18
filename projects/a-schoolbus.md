@@ -1,5 +1,5 @@
 ---
-thumbnail: "/uploads/Schoolbus1.jpg"
+thumbnail: "/uploads/schoolbus1.jpg"
 title: The School Bus
 date: 2020-01-04
 categories:

@@ -29,18 +29,6 @@ module.exports = {
                     externalLinksRel: ["nofollow", "noopener", "noreferrer"]
                 }
             }
-        },
-        {
-            use: "@gridsome/source-filesystem",
-            options: {
-                path: "KosheroItems/**/*.md",
-                typeName: "KosheroPost",
-                resolveAbsolutePaths: true,
-                remark: {
-                    externalLinksTarget: "_blank",
-                    externalLinksRel: ["nofollow", "noopener", "noreferrer"]
-                }
-            }
         }
     ],
     transformers: {
