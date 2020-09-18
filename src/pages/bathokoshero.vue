@@ -5,8 +5,9 @@
       <div class="bkoshero-header">
         <h1 class="bkoshero-title">Batho Koshero</h1>
         <p>a story-telling-design-owl.</p>
+        
         <video class="intro-video" autoplay="autoplay" muted="" playsinline loop="" preload="auto">
-          <source src="/uploads/bathokoshero1.mp4">
+          <source src="src/static/bootcamp.jpg">
         </video>
       </div>
 
