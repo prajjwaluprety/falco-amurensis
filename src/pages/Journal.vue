@@ -4,7 +4,7 @@
     <div class="container">
       <div class="journal-hero">
         <h1 class="journal-header">
-          आलु जस्तो
+          Prajjwal's Works
         </h1>
       </div>
     </div>
@@ -56,6 +56,7 @@ export default {
 .journal-header {
   font-size: 3rem;
   font-weight: 700;
+  color: black;
   padding: 0;
   margin: 0;
 }
