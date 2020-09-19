@@ -18,15 +18,29 @@
       :to="item.node.path"
       v-for="item in $page.kosheros.edges" 
       :key="item.node.id"
-      class="journal-post"
-    >
-      <div class="container journal">
-        <h2 class="journal-title">{{ item.node.title }}</h2>
-        <p class="journal-excerpt">{{ item.node.excerpt }}</p>
+      class="koshero-blocks"
+      >
+      <div class="container kosheroitems">
+        <h2 class="koshero-title">{{ item.node.title }}</h2>
+        <p class="koshero-excerpt">{{ item.node.excerpt }}</p>
       </div>
     </g-link>
 
-      
+    <div class="koshero-footers">
+      <h1 class="the-kosheros">Batho Koshero-es are:</h1>
+      <div class="koshero-cell">
+          <figure class="happy-owl">
+              <img src="/customuploads/AnojB.png" alt="anoj" />
+              <figcaption><i class="ion-android-add"></i></figcaption>
+              <a href="#/"></a>
+          </figure>
+          <figure class="happy-owl">
+              <img src="/customuploads/PrajjwalU.png" alt="prajjwal" />
+              <figcaption><i class="ion-android-add"></i></figcaption>
+              <a href="#/"></a>
+          </figure>
+      </div>
+    </div>
 
     </div>
   </Layout>
@@ -56,11 +70,22 @@ export default {
 </script>
 
 <style scoped>
+p {
+  line-height: 1.5;
+  font-size: 1.15rem;
+}
+h2 {
+  font-size: 2rem;
+}
 .bkoshero-header {
   padding: 4em 0;
+  text-align: center;
+}
+.bkoshero-header p{
+  padding: 1em 0;
 }
 .bkoshero-title {
-  font-size: 4rem;
+  font-size: 3rem;
   margin: 0;
   padding: 0;
 }
@@ -68,26 +93,38 @@ export default {
   padding: 3em 0 0;
   width: 100%;
 }
+.body {
+  text-align: center;
+  padding: 0 3rem 2rem;
+}
 .body-title {
   font-size: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
 }
-.koshero-post {
+.koshero-blocks {
+  text-align: center;
+  text-decoration: none;
+}
+.kosheroitems {
   display: block;
-  padding: 2rem 0;
+  padding: 2rem 3rem;
   text-decoration: none;
   transition: background 0.5s ease;
+  width: 100%;
+  display: block;
 }
-.koshero-post > * {
+.kosheroitems > * {
   transition: transform 0.5s ease;
 }
-.koshero-post:hover {
-  background-color: var(--color-base-1);
-}
-.koshero-post:hover > * {
+.kosheroitems:hover > * {
   transform: translateX(1rem);
 }
-.koshero-post h1,
-.koshero-post h2 {
+.kosheroitems:hover {
+  background-color: var(--color-base-1);
+}
+.kosheroitems h1,
+.kosheroitems h2 {
   margin: 0;
   padding: 0;
 }
@@ -98,12 +135,111 @@ export default {
 .koshero-excerpt {
   color: var(--color-contrast-1);
 }
-p {
-  line-height: 1.5;
-  font-size: 1.15rem;
+.koshero-footers {
+  padding: 3rem 0 0;
 }
-h2 {
-  font-size: 2rem;
-}
+.the-kosheros {
+     font-size: 2rem;
+     padding-bottom: 1rem;
+     text-align: center;
+ }
+ 
+ .koshero-cell {
+     padding-bottom: 3em;
+     text-align: center;
+ }
+ 
+ .happy-owl {
+     position: relative;
+     display: inline-block;
+     margin: 15px;
+     max-width: 90px;
+     width: 100%;
+     color: black;
+     font-size: 16px;
+     box-shadow: none !important;
+     -webkit-transform: translateZ(0);
+     transform: translateZ(0);
+ }
+ 
+ .happy-owl *,
+ .happy-owl:before,
+ .happy-owl:after {
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+     -webkit-transition: all 0.3s linear;
+     transition: all 0.3s linear;
+ }
+ 
+ .happy-owl:before,
+ .happy-owl:after {
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+     border-radius: 50%;
+     content: '';
+     position: absolute;
+     top: 0px;
+     bottom: 0px;
+     left: 0px;
+     right: 0px;
+     z-index: -1;
+     border: 2px solid #FFBE0B;
+     border-color: transparent #FFBE0B;
+ }
+ 
+ .happy-owl img {
+     max-width: 100%;
+     backface-visibility: hidden;
+     vertical-align: top;
+     border-radius: 50%;
+     padding: 10px;
+ }
+ 
+ .happy-owl a {
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     z-index: 1;
+ }
+ 
+ .happy-owl figcaption {
+     position: absolute;
+     top: 9px;
+     bottom: 9px;
+     left: 9px;
+     right: 9px;
+     opacity: 0;
+     background-color: black;
+     border-radius: 50%;
+ }
+ 
+ .happy-owl:hover figcaption,
+ .happy-owl.hover figcaption {
+     opacity: .6;
+     -webkit-transform: translateX(0);
+     transform: translateX(0);
+ }
+ 
+ .happy-owl:hover:before,
+ .happy-owl.hover:before,
+ .happy-owl:hover:after,
+ .happy-owl.hover:after {
+     border-width: 4px;
+ }
+ 
+ .happy-owl:hover:before,
+ .happy-owl.hover:before {
+     -webkit-transform: rotate(90deg);
+     transform: rotate(45deg);
+ }
+ 
+ .happy-owl:hover:after,
+ .happy-owl.hover:after {
+     -webkit-transform: rotate(-90deg);
+     transform: rotate(-45deg);
+ }
+ 
 </style>
 

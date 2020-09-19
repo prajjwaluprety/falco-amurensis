@@ -1,16 +1,16 @@
 <template>
   <Layout>
-    <div class="project">
-
+    <div class="kosheropost">
       <div class="container">
-
-        <div class="project-header">
-          <h1 class="project-title">Potato</h1>
-          <div class="project-info">
+        <div class="post-header">
+          <h1 v-html="$page.kosheros.title" class="post-title" />
+          <div class="post-info">
+            
             <div class="year-container">
               <span class="label">Year</span>
               <div v-html="$page.kosheros.date"/>
             </div>
+
           </div>
         </div>
 
@@ -27,7 +27,7 @@
 query KosheroItems ($path: String!){
 	kosheros : kosheroPost (path: $path){
     title
-    date
+    date (format: "MMMM YYYY")
     content
   }
 }
@@ -40,23 +40,24 @@ export default {
 </script>
 
 <style scoped>
-.project-header {
-  padding: 20vh 0 4rem 0;
+
+.post-header {
+  padding: 8vh 0 4rem 0;
 }
-.project-title {
+.post-title {
   font-size: 4rem;
   margin: 0 0 4rem 0;
   padding: 0;
 }
-.project-info {
+.post-info {
   display: flex;
   flex-wrap: wrap;
   font-size: 0.8rem;
 }
-.project-info > div {
+.post-info > div {
   margin-right: 4rem;
 }
-.project-info > div:last-of-type {
+.post-info > div:last-of-type {
   margin: 0;
 }
 .category:after {
