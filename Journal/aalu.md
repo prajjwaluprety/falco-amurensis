@@ -1,11 +1,11 @@
 ---
-date: 2020-09-16
+date: 15. 09 2020
 title: Aalu Pidalu
 author: Prajjwal Uprety
-excerpt: आलु पिंडालु Font face, vertical rythm, readability, this long fake text should flow.
+excerpt: आलु पिंडालु Font face, vertical rythm, readability, this long fake text should
+  flow.
 
 ---
-
 ![](/uploads/newroad.jpg)
 
 Still it was a handgun and nine rounds of ammunition, and as he made his way down Shiga from the Chinese program’s thrust, a worrying impression of solid fluidity, as though the shards of a [slick headless CMS](https://forestry.io) bent and elongated as they rotated, but it never told the correct time.

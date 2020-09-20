@@ -20,4 +20,5 @@ fields:
   name: excerpt
   label: excerpt
 pages:
+- Journal/aalu.md
 - Journal/bass.md
