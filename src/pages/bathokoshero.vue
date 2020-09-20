@@ -95,7 +95,8 @@ h2 {
 }
 .body {
   text-align: center;
-  padding: 0 3rem 2rem;
+  padding-bottom: 2rem;
+  padding: 0 1rem;
 }
 .body-title {
   font-size: 2rem;

@@ -73,7 +73,7 @@ export default {
   background-color: var(--color-base-1);
 }
 .journal-post:hover > * {
-  transform: translateX(4rem);
+  transform: translateX(2rem);
 }
 .journal-post h1,
 .journal-post h2 {
