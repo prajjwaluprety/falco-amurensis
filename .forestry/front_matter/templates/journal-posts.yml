@@ -2,15 +2,20 @@
 label: Journal Posts
 hide_body: false
 fields:
-- type: datetime
-  name: date
-  label: date
 - type: text
   name: title
   label: title
 - type: text
   name: author
   label: author
+- type: datetime
+  name: date
+  label: date
+  config:
+    date_format: DD. MMMM YYYY
+    display_utc: false
+    time_format: ''
+    export_format: DD. MMMM YYYY
 - type: text
   name: excerpt
   label: excerpt
