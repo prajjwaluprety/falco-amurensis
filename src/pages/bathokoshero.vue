@@ -11,7 +11,7 @@
 
       <div class="body">
         <h1 class="body-title">The joy in evolution and innovation.</h1>
-        <p>Weihenmayer has spent his life pushing at limits and expectations. He’s climbed the highest mountain on every continent (including Mount Kosciuszko on the “eighth continent” of Oceania), kayaked the length of the Colorado river, scaled the notorious “Nose” route of El Capitan in Yosemite and completed some of the world’s most gruelling races. His accomplishments would be jaw-dropping even if he could see. But Weihenmayer is completely blind.</p>
+        <p>"Weihenmayer has spent his life pushing at limits and expectations. He’s climbed the highest mountain on every continent (including Mount Kosciuszko on the “eighth continent” of Oceania), kayaked the length of the Colorado river, scaled the notorious “Nose” route of El Capitan in Yosemite and completed some of the world’s most gruelling races. His accomplishments would be jaw-dropping even if he could see. But Weihenmayer is completely blind."</p>
       </div>
 
       <g-link 
@@ -32,13 +32,14 @@
           <figure class="happy-owl">
               <img src="/customuploads/AnojB.png" alt="anoj" />
               <figcaption><i class="ion-android-add"></i></figcaption>
-              <a href="#/"></a>
+              <a href="https://abanjara.com.np/about"></a>
           </figure>
           <figure class="happy-owl">
               <img src="/customuploads/PrajjwalU.png" alt="prajjwal" />
               <figcaption><i class="ion-android-add"></i></figcaption>
-              <a href="#/"></a>
+              <a href="https://prajjowl.com.np"></a>
           </figure>
+          
       </div>
     </div>
 

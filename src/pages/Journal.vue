@@ -3,9 +3,8 @@
 
     <div class="container">
       <div class="journal-hero">
-        <h1 class="journal-header">
-          Prajjwal's Works
-        </h1>
+        <h1 class="journal-header">Journal</h1>
+        <p class="journal-subheader">a project container.</p>
       </div>
     </div>
 
@@ -48,6 +47,13 @@ export default {
 .container.journal {
   max-width: 720px;
 }
+p {
+  line-height: 1.5;
+  font-size: 1.15rem;
+}
+h2 {
+  font-size: 2rem;
+}
 .journal-hero {
   padding: 4rem 0;
   text-align: center;
@@ -59,6 +65,10 @@ export default {
   color: black;
   padding: 0;
   margin: 0;
+}
+.journal-subheader {
+  padding: 1em 0;
+  color: black;
 }
 .journal-post {
   display: block;
