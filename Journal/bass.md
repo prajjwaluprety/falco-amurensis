@@ -1,6 +1,6 @@
 ---
 date: 2020-04-03 18:15:00 +0000
-title: 'drinkPani: Drinking Water Information Kit'
+title: drinkPani
 author: drinkPani Research Team
 excerpt: drinkPani is a research initiative designed to collect, store, transfer and
   share information on drinking water supply and quality monitoring.
