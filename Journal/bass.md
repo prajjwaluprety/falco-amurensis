@@ -12,7 +12,7 @@ The Golden Ratio is closely related to the Fibonacci Sequence perfectly symmetri
 
 Plotting the relationships in scale provides us with what's known as a Golden Spiral. This occurs organically in the natural world.
 
-## Visualizing the Golden Ratio in graphic design
+### Visualizing the Golden Ratio in graphic design
 
 When applied to design, the Golden Ratio simply provides us with a way of creating harmony and proportion. Our subconscious mind seems to be attracted to it.
 
