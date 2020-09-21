@@ -1,5 +1,5 @@
 ---
-date: 04/04/2020
+date: 2020-04-03
 title: drinkPani
 author: drinkPani Research Team
 excerpt: drinkPani is a research initiative designed to collect, store, transfer and
