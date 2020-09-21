@@ -18,4 +18,5 @@ fields:
   name: excerpt
   label: excerpt
 pages:
+- KosheroItems/swarmduct.md
 - KosheroItems/thedesignroadway.md
