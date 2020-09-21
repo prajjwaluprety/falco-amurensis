@@ -3,7 +3,6 @@ thumbnail: "/uploads/bootcamp.jpg"
 title: Innovation Bootcamp
 date: 2019-11-24
 categories:
-- InnovationContinues
 - Paschimanchal Campus
 project_bg_color: ''
 project_fg_color: ''

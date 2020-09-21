@@ -20,14 +20,6 @@ export default [
     component: c2
   },
   {
-    path: "/journal/taalu/",
-    component: c1
-  },
-  {
-    path: "/journal/kyakhalu/",
-    component: c1
-  },
-  {
     path: "/projects/c-newroad/",
     component: c3
   },
@@ -45,10 +37,6 @@ export default [
   },
   {
     path: "/journal/bass/",
-    component: c1
-  },
-  {
-    path: "/journal/aalu/",
     component: c1
   },
   {

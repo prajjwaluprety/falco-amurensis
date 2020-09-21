@@ -35,7 +35,11 @@ query KosheroItems ($path: String!){
 
 <script>
 export default {
-  
+  metaInfo () {
+    return {
+      title: this.$page.kosheros.title
+    }
+  }
 }
 </script>
 
