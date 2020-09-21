@@ -5,7 +5,6 @@ author: Prajjwal Uprety
 excerpt: Font face, vertical rythm. Hawa kura haru.
 
 ---
-
 ![](/uploads/schoolbus2.png)
 
 The Golden Ratio is closely related to the Fibonacci Sequence perfectly symmetrical relationship between two proportions. Approximately equal to a 1:1.61 ratio, the Golden Ratio can be illustrated using a Golden Rectangle.
