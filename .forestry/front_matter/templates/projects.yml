@@ -11,6 +11,9 @@ fields:
 - type: datetime
   name: date
   label: date
+  config:
+    date_format: YYYY
+    export_format: YYYY-MM-DD
 - type: list
   name: categories
   label: categories
