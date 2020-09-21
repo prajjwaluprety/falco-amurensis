@@ -25,4 +25,5 @@ fields:
   label: project_fg_color
 pages:
 - projects/a-schoolbus.md
+- projects/b-innovationbootcamp.md
 - projects/c-newroad.md
