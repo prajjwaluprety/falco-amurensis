@@ -23,3 +23,5 @@ fields:
 - type: text
   name: project_fg_color
   label: project_fg_color
+pages:
+- projects/a-schoolbus.md
