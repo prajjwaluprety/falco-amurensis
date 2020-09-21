@@ -15,7 +15,7 @@ fields:
     date_format: D. MMMM YYYY
     display_utc: false
     time_format: ''
-    export_format: D. MMMM YYYY
+    export_format: MM/DD/YYYY
 - type: text
   name: excerpt
   label: excerpt
