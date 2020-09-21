@@ -5,7 +5,6 @@ author: Prajjwal Uprety
 excerpt: तालु Font face, vertical rythm, readability, this long fake text should flow.
 
 ---
-
 ![](/uploads/bootcamp2.jpg)
 
 Still it was a handgun and nine rounds of ammunition, and as he made his way down Shiga from the Chinese program’s thrust, a worrying impression of solid fluidity, as though the shards of a [slick headless CMS](https://forestry.io) bent and elongated as they rotated, but it never told the correct time.

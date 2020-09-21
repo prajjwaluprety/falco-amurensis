@@ -1,0 +1,22 @@
+---
+label: Koshero Items
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+  config:
+    date_format: MMMM YYYY
+    export_format: YYYY-MM-DD
+- type: list
+  name: categories
+  label: categories
+- type: text
+  name: excerpt
+  label: excerpt
+pages:
+- KosheroItems/swarmduct.md
+- KosheroItems/thedesignroadway.md
