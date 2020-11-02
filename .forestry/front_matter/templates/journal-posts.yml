@@ -21,6 +21,7 @@ fields:
   label: excerpt
 pages:
 - Journal/1.md
+- Journal/2-things.md
 - Journal/bass.md
 - Journal/goldenratio.md
 - Journal/vuejs.md
