@@ -20,7 +20,6 @@ fields:
   name: excerpt
   label: excerpt
 pages:
-- Journal/1.md
 - Journal/bass.md
 - Journal/goldenratio.md
 - Journal/vuejs.md
