@@ -16,3 +16,5 @@ Because the tomatoes burst against the high heat of the pan, releasing their jui
 <br>![](/uploads/schoolbus2.png)
 
 <br>Then there are the spices, which add an aromatic dimension to the mix. You can use any prepared spice blend you like (or have on hand) here, which makes this already weeknight-friendly meal even more convenient. Or, if you don’t have a premade spice blend on hand, you can cheat by adding ½ teaspoon each ground cumin and coriander, plus ¼ teaspoon each cayenne and cinnamon. Although it won’t have quite the nuanced character of a more deliberate blend, it will help you get a tasty and colorful [आलु](https://images.unsplash.com/photo-1599908121416-48c3576509fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80) dinner on the table quickly and easily. And for this delightful one-pan dinner, that’s exactly the point.
+
+> Save Walter White
