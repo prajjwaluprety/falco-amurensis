@@ -37,4 +37,4 @@ Applying the golden ratio to make an even proportional size difference between m
 The logo is vital to a brand so people can understand your core message at almost a single glance. That’s why it’s a great idea to consider the Golden Ratio when designing a logo to instantly draw people in and help them connect.
 Many of the biggest brands in the world use the Golden Ratio to form their logos: Pepsi, Natgeo, Apple and Twitter to name just a few.
 
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/vt5fpE0bzSY)
+[![Watch the video](https://youtu.be/vt5fpE0bzSY)]
